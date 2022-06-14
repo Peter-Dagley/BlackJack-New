@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="styles.css">
+    <style></style>
+</head>
+<body>
+    <center><img id=image src="https://clipart.world/wp-content/uploads/2020/08/happy-cowboy-png.png"></center>
+
+
+    <div align="center">
+    <h1>Blackjack</h1>
+	    <div>
+            <div>
+		        <br><br>
+                <input type="button" class="button" id="game" value="Start Game">
+                <input type="button" class="button" id="draw" value="Draw a Card">
+            </div>
+            <div>
+                <br>
+                <input type="button" class="button" id="fold" value="Fold" onclick="alert('under construction')">
+                <input type="button" class="button" id="restart" value="Restart">
+            </div>
+            
+            <br>
+            <table class="table">
+                <tr><td  class="label" align="center"">Card</td></tr>
+                <tr><td><div id="card"></div></td></tr>
+            </table>
+
+            <div><br><p input type="text" class="message1" id="message"></p></div>
+
+            <div><p class="message2" id="question"></p></div>
+
+
+        </div>
+    
+    <script src="blackjackscript.js"></script>
+</body>
+</html>

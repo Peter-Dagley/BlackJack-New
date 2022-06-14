@@ -1,0 +1,74 @@
+h1 {
+    font-family:verdana;
+}
+
+.label {
+    font-family:verdana;
+    font-size: 15px;
+}
+
+.button {
+    font-family:verdana;
+    font-size: 15px;
+    background-color:rgba(197, 194, 194, 0.75);
+    border: 1px solid;
+    width:150px;
+    height:4vh;
+    cursor:pointer;
+
+}
+
+.button:hover {
+    font-family:verdana;
+    background-color:rgb(43, 43, 43);
+    border-color:rgb(117, 117, 117);
+    color:rgb(248, 248, 248);
+}
+
+.message1 {
+    font-family:verdana;
+    font-size: 30px;
+    border:none;
+    width:50vw;
+    text-align:center;
+    font-weight: bold;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.message2 {
+    font-family:verdana;
+    font-size: 20px;
+    border:none;
+    width:50vw;
+    text-align:center;
+    font-weight: bold;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.table {
+    border: 1px solid;
+    font-family:verdana;
+    font-size: 15px;
+    background-color:rgba(197, 194, 194, 0.75);
+    width:305px;
+    
+}
+
+th {
+    font-family:verdana;
+    border: 1px solid;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e010;
+}
+
+#image {
+    position:absolute;
+    width: 270px;
+    left: 260px;
+    top: 1px;
+    z-index:-1;
+    opacity: 0.5;
+}
