@@ -1,3 +1,3 @@
 # BlackJack-Project
 
-edit1
+This is a simple, one-person blackjack game. Enjoy!

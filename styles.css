@@ -1,5 +1,6 @@
 h1 {
     font-family:verdana;
+    font-size: 50px;
 }
 
 .label {
@@ -10,7 +11,7 @@ h1 {
 .button {
     font-family:verdana;
     font-size: 15px;
-    background-color:rgba(197, 194, 194, 0.75);
+    background-color:rgba(209, 212, 236, 0.75);
     border: 1px solid;
     width:150px;
     height:4vh;
@@ -20,9 +21,9 @@ h1 {
 
 .button:hover {
     font-family:verdana;
-    background-color:rgb(43, 43, 43);
-    border-color:rgb(117, 117, 117);
-    color:rgb(248, 248, 248);
+    background-color:rgb(34, 30, 78);
+    border-color:rgb(209, 212, 236, 0.75);
+    color:rgb(209, 212, 236, 0.75);
 }
 
 .message1 {
@@ -49,7 +50,7 @@ h1 {
     border: 1px solid;
     font-family:verdana;
     font-size: 15px;
-    background-color:rgba(197, 194, 194, 0.75);
+    background-color:rgba(209, 212, 236, 0.75);
     width:305px;
     
 }
